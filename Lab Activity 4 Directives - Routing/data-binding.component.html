@@ -1,0 +1,18 @@
+<p>data-binding works!</p>
+<hr>
+<h2>Two-way data binding demo</h2> 
+<button (click)="showData($event)">Click Me!</button> 
+<button on-click="showData($event)">Click Me Too!</button> 
+<hr> 
+
+<h2>Two-way data binding demo (Using Functions)</h2> 
+<button (click)="getMessage('Hello World!')">Click to reveal the secret message!</button> 
+
+
+<h2>Two-way data binding demo (More Events)</h2> 
+
+<br>
+<!-- Using the console to display warning events --> 
+
+<button (click)="getMessage2('Button Click Event')">Click to Display Secret Message 2</button> 
+<br>
